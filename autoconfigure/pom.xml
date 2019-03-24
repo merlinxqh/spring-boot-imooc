@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.imooc</groupId>
-	<artifactId>dive-in-spring-boot</artifactId>
+	<artifactId>spring-boot-autoconfigure</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>dive-in-spring-boot</name>
+	<name>spring-boot-autoconfigure</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
