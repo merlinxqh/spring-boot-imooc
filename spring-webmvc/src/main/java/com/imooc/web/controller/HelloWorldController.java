@@ -2,6 +2,7 @@ package com.imooc.web.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * @ClassName HelloWorldController
@@ -14,8 +15,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class HelloWorldController {
 
 
-    @RequestMapping("/")
+    @RequestMapping("/api/index")
     public String index(){
         return "index";
+    }
+
+    @RequestMapping("/test")
+    @ResponseBody
+    public String test(){
+        return "test";
     }
 }
